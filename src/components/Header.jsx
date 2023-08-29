@@ -7,7 +7,7 @@ const Header = (props) => {
         <div>
             <h1> My name is { firstName } { lastName } </h1>
             <p> Age: { Age } </p>
-            
+            <p> Hair Color: {HairColor} </p>
         </div>
     ); 
   

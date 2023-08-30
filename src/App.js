@@ -1,18 +1,41 @@
-import React from 'react';
+
+import React, {useState} from 'react'
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 
 
-function App () {
+const App = () => {
+  //buttons
+  
   return (
-    <div className="App">
-        <Header firstName = { "SAM"} lastName = { "KOH" } Age = { "22" } HairColor = {"Black"} />
-        <Header firstName = { "JOHN"} lastName = { "LEE" } Age = { "22" } HairColor = {"Brown"} />
-        <Header firstName = { "MITCHELL"} lastName = { "KIM" } Age = { "22" } HairColor = {"Black"} />
-        <Header firstName = { "JOHN"} lastName = { "SHIM" } Age = { "22" } HairColor = {"Black"} />
+    <div>
+      <Header firstName = {"Jane"} lastName = {"Doe"} Age = {45} HairColor = {"Black"} />
+      <Header firstName = {"John"} lastName = {"Smith"} Age = {88} HairColor = {"Brown"} />
     </div>
+
   );
-}
+
+  //scary terry
+  // const[name, setName] = useState("");
+
+  // const onClick = () => {
+  //   setName("scary");
+
+  // }
+  // return (
+ 
+  //   <div>
+  //        { name }
+  //     <button onClick={onClick}> Click Me!</button>
+  //   </div>
+  // )
+
+  
+
+};
+
+
+
 
 export default App;
